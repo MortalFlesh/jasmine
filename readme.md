@@ -1,6 +1,6 @@
 # jasmine
 
-- just a small app like example for me to better understand jasmine
+- just a small app to example jasmine data provider
 
 ## jasmine - data provider
 
@@ -11,8 +11,14 @@
  
 ## Installation
  
-`npm install jasmine-data-provider`
+    npm install jasmine
+    npm install jasmine-data-provider
  
 ## Usage
  
-`var using = require('jasmine-data-provider')`
+    var using = require('jasmine-data-provider')
+
+## Example run
+
+    npm run build
+    jasmine
