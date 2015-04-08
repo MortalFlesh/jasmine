@@ -23,7 +23,8 @@
         "data-provider"
     ],
     "dependencies": {
-        "jasmine": "^2.2.1"
+        "jasmine": "^2.2.1",
+        "jasmine-data-provider": "^2.0.0"
     },
     "author": "MortalFlesh",
     "bugs": {

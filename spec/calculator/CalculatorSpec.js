@@ -1,5 +1,5 @@
 describe('Calculator', function () {
-    var using = require('./../helpers/calculator/UsingHelper');
+    var using = require('jasmine-data-provider');
 
     var Calculator = require('./../../src/calculator/Calculator');
     var calculator;
