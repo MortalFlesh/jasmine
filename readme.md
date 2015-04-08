@@ -9,10 +9,10 @@
 - so I updated it
 - now you can use Jasmine 2.2.0 and use data providers just like that:
  
- ## Installation
+## Installation
  
- `npm install jasmine-data-provider`
+`npm install jasmine-data-provider`
  
- ## Usage
+## Usage
  
- `var using = require('jasmine-data-provider')`
+`var using = require('jasmine-data-provider')`
