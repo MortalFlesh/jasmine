@@ -1,6 +1,7 @@
 function CalculatorController(calculator) {
     this.calculator = calculator;
 }
+
 CalculatorController.prototype.calcExam = function () {
     var result = this.calculator.calc(this.val('a'), this.val('b'), this.val('operator'));
     this.val('result', result);
@@ -20,8 +21,4 @@ CalculatorController.prototype.val = function (id, value) {
     }
 };
 
-try {
-    module.exports = CalculatorController;
-} catch(err){
-
-}
+module.exports = CalculatorController;

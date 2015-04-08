@@ -1,7 +1,6 @@
-
 // inspired by https://github.com/jphpsf/jasmine-data-provider
 
-exports.using = function(values, func) {
+var using = function (values, func) {
     if (values instanceof Function) {
         values = values();
     }
@@ -13,3 +12,5 @@ exports.using = function(values, func) {
         func.apply(this, values[i]);
     }
 };
+
+module.exports = using;

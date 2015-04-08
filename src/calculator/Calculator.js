@@ -17,8 +17,4 @@ Calculator.prototype.calc = function (a, b, operator) {
     }
 };
 
-try {
-    module.exports = Calculator;
-} catch(err){
-
-}
+module.exports = Calculator;

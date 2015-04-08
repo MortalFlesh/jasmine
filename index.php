@@ -1,10 +1,6 @@
 <html>
 <head>
-	<script type="text/javascript" src="lib/calculator/Calculator.js"></script>
-	<script type="text/javascript" src="lib/calculator/CalculatorController.js"></script>
-	<script type="text/javascript">
-        var calculatorController = new CalculatorController(new Calculator());
-    </script>
+	<script type="text/javascript" src="cache/index.min.js"></script>
 </head>
 <body>
 	<label>a: <input name="a" value="" id="a"></label>
