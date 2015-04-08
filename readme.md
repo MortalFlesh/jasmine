@@ -20,5 +20,5 @@
 
 ## Example run
 
-    npm run build
-    jasmine
+    jasmine         // will run tests for calculator using data provider
+    npm run build   // will build index.js.min which is used in index.html to show tested calculator
